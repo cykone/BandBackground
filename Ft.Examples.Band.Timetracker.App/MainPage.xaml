@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="Ft.Examples.Band.Timetracker.App.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Ft.Examples.Band.Timetracker.App"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="48"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="48"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="BandStatus" VerticalAlignment="Center" Grid.Row="0"></TextBlock>
+        
+        <ListView x:Name="TrackedTimes" Grid.Row="1"></ListView>
+
+        <StackPanel Margin="16, 8" Grid.Row="2" Orientation="Horizontal">
+            <Button x:Name="CreateButton" Content="Create Tile" Tapped="OnCreateTileButtonTapped" IsEnabled="False"/>
+            <Button x:Name="ConnectToBandButton" Margin="8,0,0,0" Content="Connect Band" Tapped="OnConnectBandTapped" IsEnabled="False" />
+        </StackPanel>
+    </Grid>
+</Page>

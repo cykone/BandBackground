@@ -1,0 +1,102 @@
+{
+  "$type": "DesignerContents",
+  "DesignerState": {
+    "$type": "DesignerState",
+    "BandLayout": {
+      "$type": "BandLayout",
+      "Version": {
+        "$type": "Version",
+        "Major": 2,
+        "Build": -1,
+        "Revision": -1
+      },
+      "BandTheme": {
+        "$type": "Theme",
+        "Base": "R: 51, G: 102, B: 204",
+        "HighContrast": "R: 58, G: 120, B: 221",
+        "Highlight": "R: 58, G: 120, B: 221",
+        "Lowlight": "R: 49, G: 101, B: 186",
+        "Muted": "R: 43, G: 90, B: 165",
+        "SecondaryText": "R: 137, G: 151, B: 171"
+      },
+      "TileTheme": {
+        "$type": "Theme",
+        "Base": "R: 51, G: 102, B: 204",
+        "HighContrast": "R: 58, G: 120, B: 221",
+        "Highlight": "R: 58, G: 120, B: 221",
+        "Lowlight": "R: 49, G: 101, B: 186",
+        "Muted": "R: 43, G: 90, B: 165",
+        "SecondaryText": "R: 137, G: 151, B: 171"
+      },
+      "RootPanel": {
+        "$type": "FlowPanel",
+        "Elements": {
+          "$type": "Elements",
+          "$values": [
+            {
+              "$type": "TextBlock",
+              "Color": "R: 255, G: 255, B: 255",
+              "Text": "Time",
+              "Name": "",
+              "ElementId": 2,
+              "Id": "21b768f5-2892-432a-9e99-27b36a417e16",
+              "Width": 261,
+              "Height": 32
+            },
+            {
+              "$type": "FlowPanel",
+              "Orientation": 1,
+              "Elements": {
+                "$type": "Elements",
+                "$values": [
+                  {
+                    "$type": "TextButton",
+                    "PressedColor": "R: 32, G: 32, B: 32",
+                    "Text": "Start",
+                    "Name": "",
+                    "ElementId": 4,
+                    "Id": "fb69e4e4-fc0b-469e-bc39-55c14af39157",
+                    "Width": 119,
+                    "Height": 55,
+                    "TopMargin": 8,
+                    "HorizontalAlignment": 2
+                  },
+                  {
+                    "$type": "TextButton",
+                    "PressedColor": "R: 32, G: 32, B: 32",
+                    "Text": "Track",
+                    "Name": "",
+                    "ElementId": 5,
+                    "Id": "0aadc046-5517-4fa7-b9ef-08f8ea97fcc4",
+                    "Width": 119,
+                    "Height": 55,
+                    "LeftMargin": 8,
+                    "TopMargin": 8,
+                    "HorizontalAlignment": 2
+                  }
+                ]
+              },
+              "Name": "",
+              "ElementId": 3,
+              "Id": "4dbb32bc-fc05-4a4e-ab00-2b86d7d56847",
+              "Width": 261,
+              "Height": 98
+            }
+          ]
+        },
+        "Name": "",
+        "ElementId": 1,
+        "Id": "cfba35f8-411c-44a3-a3df-89b8be051e34",
+        "Width": 258,
+        "Height": 128
+      }
+    },
+    "SelectedElements": {
+      "$type": "IdList",
+      "$values": [
+        "0aadc046-5517-4fa7-b9ef-08f8ea97fcc4"
+      ]
+    }
+  },
+  "ZoomPercent": 100.0
+}
